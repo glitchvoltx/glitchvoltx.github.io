@@ -1,2 +1,3 @@
-##No projects stil
-##GlitchVoltx Music(Coming soon)
+No projects stil
+
+GlitchVoltx Music(Coming soon)
