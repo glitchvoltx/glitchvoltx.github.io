@@ -1,0 +1,91 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Tajawal', 'Cairo', 'Noto Sans Arabic', 'Noto Sans JP', 'Noto Sans SC', 'Noto Sans KR', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/* Ensure all project elements map cleanly to the Canvas layout coordinate modes */
+[class^="el-"] {
+    position: relative;
+}
+
+/* Ensure Lucide SVGs scale to fill their container bounds appropriately */
+.lucide, svg {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+
+/* Ensure all images and videos are responsive and constrained to their parent layout bounds, matching Tailwind preflight behavior */
+img, video {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Element Styles */
+.el-root { width: 100%; min-height: 100%; background-color: #ffffff; display: flex; flex-direction: column; padding: 24px; gap: 24px; }
+.el-a250e3b3 { padding: 16px; min-height: 50px; width: 100cqw; background-color: #f3f4f6; display: flex; flex-direction: column; gap: 16px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; margin-left: calc(50% - 50cqw); margin-right: calc(50% - 50cqw); flex-shrink: 0; margin-bottom: -24px; margin-top: -24px; }
+.el-90fb6126 { padding: 16px 24px; min-height: 50px; width: 100%; background-color: #ffffff; display: flex; flex-direction: row; gap: 24px; border-radius: 100px; border-width: 0px; border-style: dashed; border-color: #d1d5db; justify-content: space-between; align-items: center; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eee; }
+.el-94c6f429 { font-size: 24px; font-weight: 800; color: #000000; margin: 0px; font-family: 'Poppins', sans-serif; }
+.el-9302ee15 { padding: 0px; min-height: 50px; width: 100%; background-color: transparent; display: flex; flex-direction: row; gap: 24px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; align-items: center; text-align: center; justify-content: flex-end; }
+.el-8f733837 { font-size: 14px; color: #1f2937; line-height: 1.5; }
+.el-fb10d0a2 { font-size: 14px; color: #1f2937; line-height: 1.5; }
+.el-e5ps1bd0 { font-size: 14px; color: #1f2937; line-height: 1.5; }
+.el-32b78879 { width: 100%; height: 500px; border-radius: 25px; overflow: hidden; position: relative; }
+.el-0d2a8d5d { padding: 16px; min-height: 50px; width: 100%; background-color: #deddda; display: flex; flex-direction: column; gap: 16px; border-radius: 25px; border-width: 0px; border-style: dashed; border-color: #d1d5db; height: auto; justify-content: center; align-items: center; color: #ffffff; }
+.el-cb72350c { font-size: 32px; font-weight: bold; color: #111827; margin: 0 0 16px 0; font-family: 'Poppins', sans-serif; text-align: center; }
+.el-8cf9dfbc { padding: 16px; min-height: 50px; width: 340px; background-color: #f3f4f6; display: flex; flex-direction: column; gap: 16px; border-radius: 25px; border-width: 0px; border-style: dashed; border-color: #d1d5db; height: 600px; background-image: url(https://github.com/glitchvoltx/glitchvoltx.github.io/blob/main/assets/images/testfinal.png?raw=true); background-size: cover; background-position: center; background-repeat: no-repeat; justify-content: flex-end; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; }
+.el-e0629fe5 { padding: 16px; min-height: 50px; width: 100%; display: flex; flex-direction: column; gap: 16px; border-radius: 25px; border-width: 0px; border-style: dashed; border-color: #d1d5db; background-image: url(https://github.com/glitchvoltx/glitchvoltx.github.io/blob/main/assets/images/Frame%201.png?raw=true); background-size: cover; background-position: center; background-repeat: no-repeat; height: 300px; padding-right: 0px; align-items: center; justify-content: flex-end; padding-left: 0px; padding-bottom: 0px; }
+.el-2e8d1d39 { width: 100%; height: 1000%; background-image: url(https://github.com/glitchvoltx/glitchvoltx.github.io/blob/main/assets/images/Chasing%20the%20Unscripted%20logo%20transparent.png?raw=true); background-size: 114%; background-position: 50% 27%; background-repeat: no-repeat; padding-top: 0px; text-align: left; margin-left: 0px; margin-right: 0px; }
+.el-e24867ff { padding: 16px; min-height: 50px; width: 100px; background-color: #f3f4f6; display: flex; flex-direction: column; gap: 16px; border-radius: 100px; border-width: 0px; border-style: dashed; border-color: #d1d5db; height: 2%; background-image: radial-gradient(circle at center, #3b82f6, #001cff); justify-content: center; align-items: center; margin-top: 0px; margin-bottom: 14px; }
+.el-d8959b2e { width: 30px; height: auto; border-radius: 8px; object-fit: cover; color: #ffffff; padding-top: 0px; padding-bottom: 0px; padding-right: 0px; }
+.el-40e7c567 { width: 40px; height: 15px; background-color: #000000; border-radius: 100px; }
+.el-lock-roo { display: flex; flex-direction: column; align-items: stretch; justify-content: center; min-height: 100vh; background-color: #f0f0f0; margin-left: 0px; padding-left: 25px; padding-right: 25px; }
+.el-74e57415 { padding: 16px; min-height: 50px; width: 100%; display: flex; flex-direction: column; gap: 0px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; padding-bottom: 0px; padding-top: 0px; }
+.el-a3eee5be { width: 100%; height: 200px; background-image: url(https://github.com/glitchvoltx/glitchvoltx.github.io/blob/main/assets/images/26-Jul-22-10-10-47-34.png?raw=true); background-size: contain; background-position: center; background-repeat: no-repeat; margin-bottom: 0px; }
+.el-lock-box { padding: 2rem; background-color: #fff; border-radius: 50px; box-shadow: 0px 0px 31px 0px #000000; display: flex; flex-direction: column; gap: 1rem; align-items: center; }
+.el-lock-ico { color: #001cff; width: 48px; height: 48px; }
+.el-lock-tit { font-size: 1.5rem; font-weight: 800; color: #000000; font-family: 'Poppins', sans-serif; }
+.el-lock-inp { padding: 0.5rem; border-width: 1px; border-style: solid; border-color: #ccc; border-radius: 4px; width: 100%; color: #9a9996; }
+.el-lock-btn { padding: 0.5rem 1rem; background-color: #001cff; color: #fff; border-radius: 25px; width: 75%; }
+.el-795202a9 { font-size: 16px; color: #1f2937; line-height: 1.5; text-align: center; margin-top: 20px; }
+.el-xgjjg7mb { padding: 16px; min-height: 50px; width: 100%; display: flex; flex-direction: column; gap: 0px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; padding-bottom: 0px; padding-top: 0px; }
+.el-cj7irpsl { width: 100%; height: 200px; background-image: url(https://github.com/glitchvoltx/glitchvoltx.github.io/blob/main/assets/images/pass.png?raw=true); background-size: contain; background-position: center; background-repeat: no-repeat; margin-bottom: 0px; }
+.el-r7izyauq { padding: 2rem; background-color: #fff; border-radius: 50px; box-shadow: 0px 0px 31px 0px #000000; display: flex; flex-direction: column; gap: 1rem; align-items: center; }
+.el-aj23xv7o { color: #ea1cc3; width: 48px; height: 48px; }
+.el-ai78gvd6 { font-size: 1.5rem; font-weight: 800; color: #000000; font-family: 'M PLUS Rounded 1c', sans-serif; }
+.el-pfp64hx0 { padding: 0.5rem; border-width: 1px; border-style: solid; border-color: #ccc; border-radius: 4px; width: 100%; color: #9a9996; }
+.el-6uvbvmck { padding: 0.5rem 1rem; background-color: #ea1cc3; color: #fff; border-radius: 25px; width: 75%; font-family: 'Sawarabi Gothic', sans-serif; }
+.el-mqs0zb2o { font-size: 16px; color: #1f2937; line-height: 1.5; text-align: center; margin-top: 20px; }
+
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-20px); }
+  60% { transform: translateY(-10px); }
+}
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
