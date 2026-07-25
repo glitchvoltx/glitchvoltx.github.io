@@ -1,0 +1,248 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Tajawal', 'Cairo', 'Noto Sans Arabic', 'Noto Sans JP', 'Noto Sans SC', 'Noto Sans KR', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/* Ensure all project elements map cleanly to the Canvas layout coordinate modes */
+[class^="el-"] {
+    position: relative;
+}
+
+/* Ensure Lucide SVGs scale to fill their container bounds appropriately */
+.lucide, svg {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+
+/* Ensure all images and videos are responsive and constrained to their parent layout bounds, matching Tailwind preflight behavior */
+img, video {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Custom Imported Fonts */
+
+
+/* Element Styles */
+.el-root { width: 100%; min-height: 100%; background-color: #ffffff; display: flex; flex-direction: column; padding: 24px; gap: 0px; padding-top: 0px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; }
+.el-a250e3b3 { padding: 16px; min-height: 50px; width: 100%; background-color: #f3f4f6; display: flex; flex-direction: column; gap: 16px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; padding-top: 16px; padding-right: 16px; padding-left: 16px; padding-bottom: 0px; }
+.el-90fb6126 { padding: 16px 24px; min-height: 50px; width: 100%; background-color: #ffffff; display: flex; flex-direction: row; gap: 24px; border-radius: 100px; border-width: 0px; border-style: dashed; border-color: #d1d5db; justify-content: space-between; align-items: center; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eee; }
+.el-4aabd260 { width: 15%; height: auto; border-radius: 8px; object-fit: cover; }
+.el-94c6f429 { font-size: 24px; font-weight: 800; color: #000000; margin: 0px; font-family: 'Poppins', sans-serif; }
+.el-9302ee15 { padding: 0px; min-height: 50px; width: 100%; background-color: transparent; display: flex; flex-direction: row; gap: 24px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; align-items: center; text-align: center; justify-content: flex-end; }
+.el-6b12c832 { width: 24px; height: 24px; color: #000000; display: inline-block; }
+.el-8f733837 { font-size: 14px; color: #001cff; line-height: 1.5; }
+.el-fb10d0a2 { font-size: 14px; color: #1f2937; line-height: 1.5; }
+.el-e5ps1bd0 { font-size: 14px; color: #1f2937; line-height: 1.5; }
+.el-7b562641 { width: 100%; height: 600px; border-radius: 25px; overflow: hidden; position: relative; }
+.el-b9e97b35 { padding: 16px; min-height: 50px; width: 100%; background-color: #deddda; display: flex; flex-direction: row; gap: 0px; border-radius: 25px; border-width: 0px; border-style: dashed; border-color: #d1d5db; justify-content: space-between; padding-bottom: 0px; padding-top: 0px; padding-left: 0px; padding-right: 0px; }
+.el-f98cecc4 { padding: 16px; min-height: 50px; width: auto; display: flex; flex-direction: column; gap: 0px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; }
+.el-797dd29e { font-size: 50px; font-weight: bold; color: #001cff; margin: 0 0 16px 0; font-family: 'Poppins', sans-serif; }
+.el-cbe4e125 { font-size: 16px; color: #000000; line-height: 1.5; margin-top: -10px; }
+.el-6u2fio59 { font-size: 16px; color: #000000; line-height: 1.5; margin-top: -6px; }
+.el-873aee90 { width: 27%; height: auto; border-radius: 8px; object-fit: cover; }
+.el-0d2a8d5d { padding: 16px; min-height: 50px; width: 100%; background-color: #deddda; display: flex; flex-direction: row; gap: 16px; border-radius: 25px; border-width: 0px; border-style: dashed; border-color: #d1d5db; height: auto; justify-content: center; align-items: center; color: #ffffff; }
+.el-ecyp2fee { width: 100px; height: 600px; background-image: url(https://github.com/glitchvoltx/glitchvoltx.github.io/blob/main/assets/images/aniumation%20strech%20r.png?raw=true); background-size: auto; background-position: center; background-repeat: no-repeat; margin-right: 0px; }
+.el-14cfcc02 { padding: 16px; min-height: 50px; width: 83%; display: flex; flex-direction: column; gap: 16px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; align-items: center; justify-content: center; padding-bottom: 30px; }
+.el-cb72350c { font-size: 32px; font-weight: bold; color: #111827; margin: 0 0 16px 0; font-family: 'Poppins', sans-serif; text-align: center; }
+.el-1ljecwqd { width: 90px; height: 5px; background-color: #000000; border-radius: 100px; margin-top: -25px; }
+.el-8cf9dfbc { padding: 16px; min-height: 50px; width: 340px; background-color: #f3f4f6; display: flex; flex-direction: column; gap: 16px; border-radius: 25px; border-width: 0px; border-style: dashed; border-color: #d1d5db; height: 600px; background-image: url(https://github.com/glitchvoltx/glitchvoltx.github.io/blob/main/assets/images/testfinal.png?raw=true); background-size: cover; background-position: center; background-repeat: no-repeat; justify-content: flex-end; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; box-shadow: 0px 0px 20px 0px #000000; }
+.el-e0629fe5 { padding: 16px; min-height: 50px; width: 100%; display: flex; flex-direction: column; gap: 16px; border-radius: 25px; border-width: 0px; border-style: dashed; border-color: #d1d5db; background-image: url(https://github.com/glitchvoltx/glitchvoltx.github.io/blob/main/assets/images/Frame%201.png?raw=true); background-size: cover; background-position: center; background-repeat: no-repeat; height: 300px; padding-right: 0px; align-items: center; justify-content: flex-end; padding-left: 0px; padding-bottom: 0px; }
+.el-2e8d1d39 { width: 100%; height: 1000%; background-image: url(https://github.com/glitchvoltx/glitchvoltx.github.io/blob/main/assets/images/Chasing%20the%20Unscripted%20logo%20transparent.png?raw=true); background-size: 114%; background-position: 50% 27%; background-repeat: no-repeat; padding-top: 0px; text-align: left; margin-left: 0px; margin-right: 0px; }
+.el-to99hz05 { width: 100px; height: 600px; background-image: url(https://github.com/glitchvoltx/glitchvoltx.github.io/blob/main/assets/images/aniumation%20strech%20.png?raw=true); background-size: auto; background-position: center; background-repeat: no-repeat; margin-right: 0px; }
+.el-v45baga2 { padding: 16px; min-height: 50px; width: 100%; background-color: #deddda; display: flex; flex-direction: row; gap: 16px; border-radius: 25px; border-width: 0px; border-style: dashed; border-color: #d1d5db; height: auto; justify-content: center; align-items: center; color: #ffffff; }
+.el-sb8divqo { width: 100px; height: 600px; background-image: url(https://github.com/glitchvoltx/glitchvoltx.github.io/blob/main/assets/images/Projects%20strech%20r.png?raw=true); background-size: auto; background-position: center; background-repeat: no-repeat; margin-right: 0px; }
+.el-a727fdf8 { padding: 16px; min-height: 50px; width: 83%; display: flex; flex-direction: column; gap: 0px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; align-items: center; padding-top: 0px; padding-left: 0px; padding-bottom: 0px; padding-right: 0px; }
+.el-5a1bhhem { font-size: 32px; font-weight: bold; color: #111827; margin: 0 0 16px 0; font-family: 'Poppins', sans-serif; text-align: center; }
+.el-ioz3c1xp { width: 90px; height: 5px; background-color: #000000; border-radius: 100px; margin-top: -10px; }
+.el-19ebec07 { padding: 16px; min-height: 50px; width: 100%; display: flex; flex-direction: column; gap: 16px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; justify-content: center; align-items: center; padding-right: 0px; padding-left: 0px; }
+.el-5j8ul9cn { padding: 16px; min-height: 50px; width: 100%; background-color: #f3f4f6; display: flex; flex-direction: column; gap: 0px; border-radius: 25px; border-width: 0px; border-style: dashed; border-color: #d1d5db; height: 220px; padding-top: 0px; padding-left: 0px; padding-bottom: 0px; padding-right: 0px; background-image: url(https://github.com/glitchvoltx/glitchvoltx.github.io/blob/main/assets/images/GlitchVoltxEditorBanner.png?raw=true); background-size: cover; background-position: center; background-repeat: no-repeat; }
+.el-l1l72nar { padding: 16px; min-height: 50px; width: 100%; display: flex; flex-direction: column; gap: 10px; border-radius: 25px; border-width: 0px; border-style: dashed; border-color: #d1d5db; height: 100%; background-image: url(https://github.com/glitchvoltx/glitchvoltx.github.io/blob/main/assets/images/Frame%201.png?raw=true); background-size: cover; background-position: center; background-repeat: no-repeat; justify-content: flex-end; padding-bottom: 0px; align-items: stretch; }
+.el-tvtka2ok { font-size: 32px; font-weight: bold; color: #ffffff; margin: 0 0 16px 0; text-align: center; font-family: 'Plus Jakarta Sans', sans-serif; }
+.el-7a5b7907 { padding: 16px; min-height: 50px; width: 100%; background-color: #020101; display: flex; flex-direction: column; gap: 0px; border-radius: 25px; border-width: 0px; border-style: dashed; border-color: #d1d5db; height: 220px; padding-top: 0px; padding-left: 0px; padding-bottom: 0px; padding-right: 0px; background-image: url(https://github.com/glitchvoltx/glitchvoltx.github.io/blob/main/assets/images/glitchvoltx%20ambient%20transparent.png?raw=true); background-size: contain; background-position: center; background-repeat: no-repeat; }
+.el-73fcf7d2 { padding: 16px; min-height: 50px; width: 100%; display: flex; flex-direction: column; gap: 10px; border-radius: 25px; border-width: 0px; border-style: dashed; border-color: #d1d5db; height: 100%; background-image: url(https://github.com/glitchvoltx/glitchvoltx.github.io/blob/main/assets/images/Frame%201.png?raw=true); background-size: cover; background-position: center; background-repeat: no-repeat; justify-content: flex-end; padding-bottom: 0px; }
+.el-01c38fac { font-size: 32px; font-weight: bold; color: #ffffff; margin: 0 0 16px 0; text-align: center; font-family: 'Inter', sans-serif; }
+.el-3x0bazq9 { width: 100px; height: 600px; background-image: url(https://github.com/glitchvoltx/glitchvoltx.github.io/blob/main/Projects%20strech.png?raw=true); background-size: auto; background-position: center; background-repeat: no-repeat; margin-right: 0px; }
+.el-othxebkw { padding: 16px; min-height: 50px; width: 100%; display: flex; flex-direction: column; gap: 16px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; justify-content: center; align-items: center; }
+.el-1bhq5skv { width: 15%; height: auto; border-radius: 8px; object-fit: cover; }
+.el-2zw2lyl9 { padding: 8px 16px; background-color: #26a269; color: #ffffff; border-radius: 25px; cursor: pointer; text-align: center; display: inline-block; border-width: 3px; font-weight: 500; width: 20%; height: 50px; border-color: #176843; background-image: url(https://github.com/glitchvoltx/glitchvoltx.github.io/blob/main/assets/images/Linktreelogo.png?raw=true); background-size: contain; background-position: center; background-repeat: no-repeat; }
+.el-ryg23uc3 { font-size: 16px; color: #000000; line-height: 1.5; }
+.el-root { width: 100%; min-height: 100%; background-color: #ffffff; display: flex; flex-direction: column; padding: 24px; gap: 24px; padding-right: 0px; padding-top: 0px; padding-left: 0px; }
+.el-45b29bdc { padding: 16px; min-height: 50px; width: 100%; background-color: #f3f4f6; display: flex; flex-direction: column; gap: 16px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; padding-top: 16px; padding-left: 16px; padding-right: 16px; padding-bottom: 16px; }
+.el-55zx8rvc { padding: 16px 24px; min-height: 50px; width: 100%; background-color: #ffffff; display: flex; flex-direction: row; gap: 24px; border-radius: 100px; border-width: 0px; border-style: dashed; border-color: #d1d5db; justify-content: space-between; align-items: center; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eee; }
+.el-9yj7zs34 { width: 15%; height: auto; border-radius: 8px; object-fit: cover; }
+.el-gex8dayj { font-size: 24px; font-weight: 800; color: #000000; margin: 0px; font-family: 'Poppins', sans-serif; }
+.el-imqixmvr { padding: 0px; min-height: 50px; width: 100%; background-color: transparent; display: flex; flex-direction: row; gap: 24px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; align-items: center; text-align: center; justify-content: flex-end; }
+.el-twli5g8y { width: 24px; height: 24px; color: #000000; display: inline-block; }
+.el-t19sijka { font-size: 14px; color: #1f2937; line-height: 1.5; }
+.el-oiuj4shs { font-size: 14px; color: #1f2937; line-height: 1.5; }
+.el-odpcnahv { font-size: 14px; color: #1f2937; line-height: 1.5; }
+.el-acbb7d8f { padding: 16px; min-height: 50px; width: 100%; display: flex; flex-direction: column; gap: 0px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; justify-content: flex-start; align-items: center; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px; }
+.el-845bad1d { width: 40%; height: auto; border-radius: 8px; object-fit: cover; }
+.el-242930e9 { font-size: 80px; font-weight: bold; color: #000000; margin: 0 0 16px 0; font-family: 'Poppins', sans-serif; margin-top: -50px; }
+.el-ddb4219b { font-size: 16px; color: #1f2937; line-height: 1.5; text-align: center; width: 50%; margin-top: -24px; }
+.el-88922537 { padding: 16px; background-color: #f3f4f6; color: #ffffff; border-radius: 25px; cursor: pointer; text-align: center; display: flex; border-width: 0px; font-weight: bold; margin-top: 16px; min-height: 50px; width: auto; flex-direction: column; gap: 16px; border-style: dashed; border-color: #d1d5db; height: 20px; background-image: radial-gradient(circle at center, #3b82f6, #001cff); justify-content: center; align-items: center; margin-bottom: 0px; }
+.el-a8yatd96 { padding: 16px; min-height: 50px; width: 100%; display: flex; flex-direction: column; gap: 16px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; justify-content: center; align-items: center; margin-top: 50px; }
+.el-dwyo1c6e { width: 15%; height: auto; border-radius: 8px; object-fit: cover; }
+.el-jva2tmzt { padding: 8px 16px; background-color: #26a269; color: #ffffff; border-radius: 25px; cursor: pointer; text-align: center; display: inline-block; border-width: 3px; font-weight: 500; width: 20%; height: 50px; border-color: #176843; background-image: url(https://github.com/glitchvoltx/glitchvoltx.github.io/blob/main/assets/images/Linktreelogo.png?raw=true); background-size: contain; background-position: center; background-repeat: no-repeat; }
+.el-hscsuaoe { font-size: 16px; color: #000000; line-height: 1.5; }
+.el-root { width: 100%; min-height: 100%; background-color: #ffffff; display: flex; flex-direction: column; padding: 24px; gap: 24px; }
+.el-e217470f { padding: 16px; min-height: 50px; width: 100%; background-color: #f3f4f6; display: flex; flex-direction: column; gap: 16px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; padding-right: 16px; padding-left: 16px; padding-top: 16px; }
+.el-lgea8ibx { padding: 16px 24px; min-height: 50px; width: 100%; background-color: #ffffff; display: flex; flex-direction: row; gap: 24px; border-radius: 100px; border-width: 0px; border-style: dashed; border-color: #d1d5db; justify-content: space-between; align-items: center; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eee; }
+.el-9wpjgai0 { width: 15%; height: auto; border-radius: 8px; object-fit: cover; }
+.el-o9mkhvfa { font-size: 24px; font-weight: 800; color: #000000; margin: 0px; font-family: 'Poppins', sans-serif; }
+.el-lk6mr1b5 { padding: 0px; min-height: 50px; width: 100%; background-color: transparent; display: flex; flex-direction: row; gap: 24px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; align-items: center; text-align: center; justify-content: flex-end; }
+.el-cmgqlehx { width: 24px; height: 24px; color: #000000; display: inline-block; }
+.el-o23m7vej { font-size: 14px; color: #1f2937; line-height: 1.5; }
+.el-665adoiq { font-size: 14px; color: #2e2cb1; line-height: 1.5; }
+.el-gm6fj9fu { font-size: 14px; color: #1f2937; line-height: 1.5; }
+.el-2978e982 { padding: 16px; min-height: 50px; width: auto; display: flex; flex-direction: column; gap: 16px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; margin-right: -16px; margin-left: -16px; height: 500px; background-image: linear-gradient(to bottom, #ffffff, #001cff); justify-content: center; align-items: center; }
+.el-cc85fc75 { font-size: 70px; font-weight: bold; color: #ffffff; margin: 0 0 16px 0; text-align: center; }
+.el-a627b16b { position: static; top: 88.4%; width: 80px; height: 8.044276740122917%; margin: 0px; z-index: 0; border-radius: 8px; }
+.el-c01b5a14 { padding: 16px; min-height: 50px; width: auto; background-color: #001cff; display: flex; flex-direction: column; gap: 16px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; margin-top: -16px; margin-left: -16px; margin-right: -16px; height: 700px; }
+.el-jiqjt2po { padding: 16px; min-height: 50px; width: 100%; display: flex; flex-direction: column; gap: 16px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; justify-content: center; align-items: center; }
+.el-x6i425dz { width: 15%; height: auto; border-radius: 8px; object-fit: cover; }
+.el-fh9lnrlo { padding: 8px 16px; background-color: #26a269; color: #ffffff; border-radius: 25px; cursor: pointer; text-align: center; display: inline-block; border-width: 3px; font-weight: 500; width: 20%; height: 50px; border-color: #176843; background-image: url(https://github.com/glitchvoltx/glitchvoltx.github.io/blob/main/assets/images/Linktreelogo.png?raw=true); background-size: contain; background-position: center; background-repeat: no-repeat; }
+.el-nbf630tp { font-size: 16px; color: #ffffff; line-height: 1.5; }
+.el-root { width: 100%; min-height: 100%; background-color: #ffffff; display: flex; flex-direction: column; padding: 24px; gap: 24px; }
+.el-d7ebbf40 { padding: 16px; min-height: 50px; width: 100%; background-color: #f3f4f6; display: flex; flex-direction: column; gap: 16px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; padding-left: 16px; padding-bottom: 16px; padding-right: 16px; padding-top: 16px; }
+.el-bu49xmf0 { padding: 16px 24px; min-height: 50px; width: 100%; background-color: #ffffff; display: flex; flex-direction: row; gap: 24px; border-radius: 100px; border-width: 0px; border-style: dashed; border-color: #d1d5db; justify-content: space-between; align-items: center; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eee; }
+.el-ncy67eah { width: 15%; height: auto; border-radius: 8px; object-fit: cover; }
+.el-iwsgj80q { font-size: 24px; font-weight: 800; color: #000000; margin: 0px; font-family: 'Poppins', sans-serif; }
+.el-33hhuzd7 { padding: 0px; min-height: 50px; width: 100%; background-color: transparent; display: flex; flex-direction: row; gap: 24px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; align-items: center; text-align: center; justify-content: flex-end; }
+.el-l0dvvcag { width: 24px; height: 24px; color: #000000; display: inline-block; }
+.el-zx1a5bc5 { font-size: 14px; color: #1f2937; line-height: 1.5; }
+.el-7xu8cd2v { font-size: 14px; color: #1f2937; line-height: 1.5; }
+.el-vxrlm0ie { font-size: 14px; color: #1f2937; line-height: 1.5; }
+.el-a5a95e2f { padding: 16px; min-height: 50px; width: auto; background-color: #d690d0; display: flex; flex-direction: column; gap: px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; align-items: center; background-image: url(https://github.com/glitchvoltx/glitchvoltx.github.io/blob/main/assets/images/chasingtheunscriptedbg.png?raw=true); background-size: cover; background-position: center; background-repeat: no-repeat; margin-right: -16px; margin-left: -16px; padding-top: 0px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; }
+.el-feff93bd { width: 50%; height: auto; border-radius: 8px; object-fit: cover; }
+.el-2e1c036b { padding: 16px; min-height: 50px; width: 100%; display: flex; flex-direction: column; gap: 0px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; height: 100px; background-image: url(https://raw.githubusercontent.com/glitchvoltx/glitchvoltx.github.io/1f9b7052362c831b3d8edd3b357e38bc8e912ae4/assets/images/Frame%201.svg); background-size: contain; background-position: center; background-repeat: repeat-x; padding-top: 0px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; }
+.el-b0cdfa8c { font-size: 32px; font-weight: bold; color: #ffffff; margin: 0 0 16px 0; text-align: center; }
+.el-41464b99 { font-size: 32px; font-weight: bold; color: #ffffff; margin: 0 0 16px 0; text-align: center; margin-top: -21px; }
+.el-f82b5a02 { width: auto; height: 200px; background-color: #3b82f6; margin-right: -16px; margin-left: -16px; margin-top: -16px; background-image: linear-gradient(to bottom, #6d610f, #ea4599); }
+.el-89f0320c { padding: 16px; min-height: 50px; width: auto; background-color: #ea4599; display: flex; flex-direction: column; gap: 16px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; margin-top: -16px; margin-left: -16px; margin-right: -16px; height: 1900px; padding-left: 24px; padding-top: 24px; padding-right: 24px; padding-bottom: 24px; align-items: center; }
+.el-b7069447 { padding: 16px; min-height: 50px; width: 85%; background-color: #f671b6; display: flex; flex-direction: column; gap: 0px; border-radius: 25px; border-width: 4px; border-style: solid; border-color: #ff0084; height: auto; }
+.el-65d9fc99 { font-size: 32px; font-weight: bold; color: #ffffff; margin: 0 0 16px 0; text-align: center; }
+.el-51d05573 { font-size: 15px; color: #ffffff; line-height: 1.5; text-align: center; font-weight: 500; margin: 0 0 16px 0; }
+.el-e41878cc { width: 95%; height: 2px; background-color: #ffffff; border-radius: 8px; }
+.el-b773dd9f { font-size: 40px; font-weight: bold; color: #ffffff; margin: 0 0 16px 0; }
+.el-a6b7dbda { width: 100%; height: 400px; border-radius: 8px; overflow: hidden; position: relative; }
+.el-e445ac78 { width: 100%; height: 100%; padding: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.el-ai881j2f { padding: 16px; min-height: 50px; width: 90%; background-color: #f5c211; display: flex; flex-direction: row; gap: 0px; border-radius: 25px; border-width: 4px; border-style: solid; border-color: #e5a50a; height: 90%; align-items: stretch; justify-content: flex-start; padding-top: 0px; padding-left: 0px; padding-bottom: 0px; padding-right: 0px; }
+.el-0cdqr4af { width: 25%; height: auto; border-radius: 8px; object-fit: cover; }
+.el-v1uiew91 { padding: 16px; min-height: 50px; width: 100%; display: flex; flex-direction: column; gap: 0px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; margin-right: 0px; padding-right: 16px; padding-left: 16px; }
+.el-kb74tena { font-size: 32px; font-weight: bold; color: #ffffff; margin: 0 0 16px 0; }
+.el-tjeza5r3 { font-size: 16px; color: #ffffff; line-height: 1.5; font-weight: 800; }
+.el-u22w3ahf { font-size: 16px; color: #ffffff; line-height: 1.5; font-weight: 800; margin-top: 0px; }
+.el-afnnnpk9 { width: auto; height: 2px; background-color: #ffffff; border-radius: 8px; margin-top: 5px; margin-bottom: 5px; }
+.el-fzvbqmz7 { font-size: 16px; color: #ffffff; line-height: 1.5; }
+.el-35abf9fd { width: 100%; height: 100%; padding: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.el-f24vdrnl { padding: 16px; min-height: 50px; width: 90%; background-color: #ae00eb; display: flex; flex-direction: row; gap: 0px; border-radius: 25px; border-width: 4px; border-style: solid; border-color: #7d00a9; height: 90%; align-items: stretch; justify-content: flex-start; padding-top: 0px; padding-left: 0px; padding-bottom: 0px; padding-right: 0px; }
+.el-00jyg7om { width: 25%; height: auto; border-radius: 8px; object-fit: cover; }
+.el-xu3m3x4c { padding: 16px; min-height: 50px; width: 100%; display: flex; flex-direction: column; gap: 0px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; margin-right: 0px; padding-right: 16px; padding-left: 16px; }
+.el-3xy5xiie { font-size: 32px; font-weight: bold; color: #ffffff; margin: 0 0 16px 0; }
+.el-jzob3v01 { font-size: 16px; color: #ffffff; line-height: 1.5; font-weight: 800; }
+.el-mndvusoe { font-size: 16px; color: #ffffff; line-height: 1.5; font-weight: 800; }
+.el-n9ge5yhu { width: auto; height: 2px; background-color: #ffffff; border-radius: 8px; margin-top: 5px; margin-bottom: 5px; }
+.el-bm1fuo32 { font-size: 16px; color: #ffffff; line-height: 1.5; }
+.el-ad691811 { width: 100%; height: 100%; padding: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.el-lbfnuhby { padding: 16px; min-height: 50px; width: 90%; background-color: #91e0ad; display: flex; flex-direction: row; gap: 0px; border-radius: 25px; border-width: 4px; border-style: solid; border-color: #26a269; height: 90%; align-items: stretch; justify-content: flex-start; padding-top: 0px; padding-left: 0px; padding-bottom: 0px; padding-right: 0px; }
+.el-gc192z3l { width: 25%; height: auto; border-radius: 8px; object-fit: cover; }
+.el-g5imm3xo { padding: 16px; min-height: 50px; width: 100%; display: flex; flex-direction: column; gap: 0px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; margin-right: 0px; padding-right: 16px; padding-left: 16px; }
+.el-6sz7lmik { font-size: 32px; font-weight: bold; color: #ffffff; margin: 0 0 16px 0; }
+.el-rwoc9qa1 { font-size: 16px; color: #ffffff; line-height: 1.5; font-weight: 800; }
+.el-1f9i0a1h { font-size: 16px; color: #ffffff; line-height: 1.5; font-weight: 800; }
+.el-sod4y3al { width: auto; height: 2px; background-color: #ffffff; border-radius: 8px; margin-top: 5px; margin-bottom: 5px; }
+.el-vdsk34n0 { font-size: 16px; color: #ffffff; line-height: 1.5; box-shadow: 0px 0px 0px 0px #000000; }
+.el-20f28be2 { width: 100%; height: 100%; padding: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.el-87g1r4we { padding: 16px; min-height: 50px; width: 90%; background-color: #3584e4; display: flex; flex-direction: row; gap: 0px; border-radius: 25px; border-width: 4px; border-style: solid; border-color: #1a5fb4; height: 90%; align-items: stretch; justify-content: flex-start; padding-top: 0px; padding-left: 0px; padding-bottom: 0px; padding-right: 0px; }
+.el-16yu89dr { width: 25%; height: auto; border-radius: 8px; object-fit: cover; }
+.el-bs7ocg3t { padding: 16px; min-height: 50px; width: 100%; display: flex; flex-direction: column; gap: 0px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; margin-right: 0px; padding-right: 16px; padding-left: 16px; }
+.el-wfbts9rr { font-size: 32px; font-weight: bold; color: #ffffff; margin: 0 0 16px 0; }
+.el-92i4md14 { font-size: 16px; color: #ffffff; line-height: 1.5; font-weight: 800; }
+.el-ii8mfv3w { font-size: 16px; color: #ffffff; line-height: 1.5; font-weight: 800; }
+.el-g44r7pas { width: auto; height: 2px; background-color: #ffffff; border-radius: 8px; margin-top: 5px; margin-bottom: 5px; }
+.el-9vpwozlq { font-size: 16px; color: #ffffff; line-height: 1.5; }
+.el-7a6a5054 { width: 100%; height: 100%; padding: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.el-90dq6amp { padding: 16px; min-height: 50px; width: 90%; background-color: #00cbff; display: flex; flex-direction: row; gap: 0px; border-radius: 25px; border-width: 4px; border-style: solid; border-color: #006a85; height: 90%; align-items: stretch; justify-content: flex-start; padding-top: 0px; padding-left: 0px; padding-bottom: 0px; padding-right: 0px; }
+.el-udvthyjk { width: 25%; height: auto; border-radius: 8px; object-fit: cover; }
+.el-ks4mmses { padding: 16px; min-height: 50px; width: 100%; display: flex; flex-direction: column; gap: 0px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; margin-right: 0px; padding-right: 16px; padding-left: 16px; }
+.el-f5pozdi9 { font-size: 32px; font-weight: bold; color: #ffffff; margin: 0 0 16px 0; }
+.el-752ziz7g { font-size: 16px; color: #ffffff; line-height: 1.5; font-weight: 800; }
+.el-bcnwy6hn { font-size: 16px; color: #ffffff; line-height: 1.5; font-weight: 800; }
+.el-2b00bxx5 { width: auto; height: 2px; background-color: #ffffff; border-radius: 8px; margin-top: 5px; margin-bottom: 5px; }
+.el-y7scr947 { font-size: 16px; color: #ffffff; line-height: 1.5; }
+.el-99db17ed { width: 100%; height: 100%; padding: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.el-6flqsnrb { padding: 16px; min-height: 50px; width: 90%; background-color: #f671b6; display: flex; flex-direction: row; gap: 0px; border-radius: 25px; border-width: 4px; border-style: solid; border-color: #ff0084; height: 90%; align-items: stretch; justify-content: flex-start; padding-top: 0px; padding-left: 0px; padding-bottom: 0px; padding-right: 0px; }
+.el-dsam95i9 { width: 25%; height: auto; border-radius: 8px; object-fit: cover; }
+.el-z1tkz3cs { padding: 16px; min-height: 50px; width: 100%; display: flex; flex-direction: column; gap: 0px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; margin-right: 0px; padding-right: 16px; padding-left: 16px; }
+.el-4evp3zgr { font-size: 32px; font-weight: bold; color: #ffffff; margin: 0 0 16px 0; }
+.el-yy90n80c { font-size: 16px; color: #ffffff; line-height: 1.5; font-weight: 800; }
+.el-keofgwln { font-size: 16px; color: #ffffff; line-height: 1.5; font-weight: 800; }
+.el-gun4hocr { width: auto; height: 2px; background-color: #ffffff; border-radius: 8px; margin-top: 5px; margin-bottom: 5px; }
+.el-ad1r1wna { font-size: 16px; color: #ffffff; line-height: 1.5; }
+.el-2c21e4dc { width: 100%; height: 100%; padding: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.el-zggm7myl { padding: 16px; min-height: 50px; width: 90%; background-color: #f66151; display: flex; flex-direction: row; gap: 0px; border-radius: 25px; border-width: 4px; border-style: solid; border-color: #e01b24; height: 90%; align-items: stretch; justify-content: flex-start; padding-top: 0px; padding-left: 0px; padding-bottom: 0px; padding-right: 0px; }
+.el-046sib63 { width: 25%; height: auto; border-radius: 8px; object-fit: cover; }
+.el-5swwb9re { padding: 16px; min-height: 50px; width: 100%; display: flex; flex-direction: column; gap: 0px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; margin-right: 0px; padding-right: 16px; padding-left: 16px; }
+.el-yr6e7vvb { font-size: 32px; font-weight: bold; color: #ffffff; margin: 0 0 16px 0; }
+.el-at6gir1o { font-size: 16px; color: #ffffff; line-height: 1.5; font-weight: 800; }
+.el-my38e4qf { font-size: 16px; color: #ffffff; line-height: 1.5; font-weight: 800; }
+.el-m2dpuafn { width: auto; height: 2px; background-color: #ffffff; border-radius: 8px; margin-top: 5px; margin-bottom: 5px; }
+.el-dih9b843 { font-size: 16px; color: #ffffff; line-height: 1.5; }
+.el-d801my70 { width: 95%; height: 2px; background-color: #ffffff; border-radius: 8px; }
+.el-y8s25as5 { font-size: 40px; font-weight: bold; color: #ffffff; margin: 0 0 16px 0; }
+.el-6a5120c5 { width: 100%; height: 400px; border-radius: 25px; overflow: hidden; position: relative; color: #000000; background-color: #f671b6; border-width: 3px; border-color: #ff0084; }
+.el-c5efd5ba { width: 100%; height: 100%; padding: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.el-fda9bd59 { width: 70%; height: auto; border-radius: 8px; object-fit: cover; }
+.el-33df57ef { width: 100%; height: 100%; padding: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.el-6a55fe45 { width: 70%; height: auto; border-radius: 8px; object-fit: cover; }
+.el-17c758a1 { padding: 16px; min-height: 50px; width: 100%; background-color: #f671b6; display: flex; flex-direction: column; gap: 0px; border-radius: 25px; border-width: 3px; border-style: solid; border-color: #ff0084; margin-top: 16px; height: 300px; }
+.el-45676ce0 { font-size: 40px; font-weight: bold; color: #ffffff; margin: 0 0 16px 0; text-align: center; }
+.el-30696988 { padding: 16px; min-height: 50px; width: 100%; display: flex; flex-direction: row; gap: 16px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; height: auto; justify-content: space-between; align-items: center; padding-right: 50px; padding-left: 50px; }
+.el-0562235a { width: 200px; height: 100px; background-color: #ea4599; border-width: 3px; border-color: #ff0084; border-radius: 25px; background-image: url(https://github.com/glitchvoltx/glitchvoltx.github.io/blob/main/assets/images/FKj1ny6A8I4R.png?raw=true); background-size: contain; background-position: center; background-repeat: no-repeat; }
+.el-z597zj7m { width: 200px; height: 100px; background-color: #ea4599; border-width: 3px; border-color: #ff0084; border-radius: 25px; background-image: url(https://github.com/glitchvoltx/glitchvoltx.github.io/blob/main/assets/images/jdI6akz22rMo.png?raw=true); background-size: contain; background-position: center; background-repeat: no-repeat; }
+.el-k1hm8x3n { width: 200px; height: 100px; background-color: #ea4599; border-width: 3px; border-color: #ff0084; border-radius: 25px; background-image: url(https://raw.githubusercontent.com/glitchvoltx/glitchvoltx.github.io/118c4af73649cb4437b9deeca6cfde834faa0052/assets/images/niconico_logo_icon_248372.svg); background-size: 41%; background-position: center; background-repeat: no-repeat; }
+.el-1o5bd2n8 { padding: 16px; min-height: 50px; width: 100%; display: flex; flex-direction: row; gap: 16px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; height: auto; justify-content: space-between; align-items: center; padding-right: 85px; padding-left: 85px; }
+.el-b96c7237 { font-size: 32px; font-weight: bold; color: #ffffff; margin: 0 0 16px 0; text-align: center; }
+.el-wlfuccic { font-size: 32px; font-weight: bold; color: #ffffff; margin: 0 0 16px 0; text-align: center; }
+.el-z64rd16v { font-size: 32px; font-weight: bold; color: #ffffff; margin: 0 0 16px 0; text-align: center; }
+.el-f2a5935e { font-size: 40px; font-weight: bold; color: #ffffff; margin: 0 0 16px 0; }
+.el-aee0f0a7 { padding: 16px; min-height: 50px; width: 100%; display: flex; flex-direction: column; gap: 16px; border-radius: 0px; border-width: 0px; border-style: dashed; border-color: #d1d5db; justify-content: center; align-items: center; }
+.el-d6211564 { width: 15%; height: auto; border-radius: 8px; object-fit: cover; }
+.el-d8657490 { padding: 8px 16px; background-color: #26a269; color: #ffffff; border-radius: 25px; cursor: pointer; text-align: center; display: inline-block; border-width: 3px; font-weight: 500; width: 20%; height: 50px; border-color: #176843; background-image: url(https://github.com/glitchvoltx/glitchvoltx.github.io/blob/main/assets/images/Linktreelogo.png?raw=true); background-size: contain; background-position: center; background-repeat: no-repeat; }
+.el-085783fd { font-size: 16px; color: #ffffff; line-height: 1.5; text-align: center; }
+
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-20px); }
+  60% { transform: translateY(-10px); }
+}
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
